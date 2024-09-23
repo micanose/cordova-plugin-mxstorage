@@ -1,0 +1,20 @@
+{
+  "name": "mxstorage",
+  "version": "1.0.0",
+  "description": "**mxstorage** is a Cordova plugin that provides secure, persistent, key-value storage for both iOS and Android, working similarly to the browser's localStorage API. It supports common operations like storing, retrieving, removing, clearing, and getting all stored items as an object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micanose/mxstorage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micanose/mxstorage/issues"
+  },
+  "homepage": "https://github.com/micanose/mxstorage#readme"
+}

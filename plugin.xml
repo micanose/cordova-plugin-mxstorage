@@ -11,6 +11,6 @@
     </platform>
 
     <platform name="android">
-        <source-file src="src/android/mxstorage.java" />
+        <source-file src="src/android/mxstorage.java" target-dir="src/com/example/mxstorage" />
     </platform>
 </plugin>
