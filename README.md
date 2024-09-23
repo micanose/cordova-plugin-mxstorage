@@ -1,6 +1,6 @@
-# LocalStoragex Cordova Plugin
+# LocalStorageX Cordova Plugin
 
-**LocalStoragex** is a Cordova plugin that provides secure, persistent, key-value storage for both iOS and Android, working similarly to the browser's localStorage API. It supports common operations like storing, retrieving, removing, clearing, and getting all stored items as an object.
+**LocalStorageX** is a Cordova plugin that provides secure, persistent, key-value storage for both iOS and Android, working similarly to the browser's localStorage API. It supports common operations like storing, retrieving, removing, clearing, and getting all stored items as an object.
 
 ## Features
 - **Cross-Platform:** Works on both iOS and Android.
