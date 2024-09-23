@@ -1,6 +1,6 @@
-# LocalStorageX Cordova Plugin
+# mxstorage Cordova Plugin
 
-**LocalStorageX** is a Cordova plugin that provides secure, persistent, key-value storage for both iOS and Android, working similarly to the browser's localStorage API. It supports common operations like storing, retrieving, removing, clearing, and getting all stored items as an object.
+**mxstorage** is a Cordova plugin that provides secure, persistent, key-value storage for both iOS and Android, working similarly to the browser's localStorage API. It supports common operations like storing, retrieving, removing, clearing, and getting all stored items as an object.
 
 ## Features
 - **Cross-Platform:** Works on both iOS and Android.
@@ -12,13 +12,13 @@
 1. Clone the repository or install the plugin directly from GitHub:
 
    ```bash
-   cordova plugin add https://github.com/yourusername/localstoragex.git
+   cordova plugin add https://github.com/yourusername/mxstorage.git
    ```
 
 2. Alternatively, add the plugin by specifying the path:
 
    ```bash
-   cordova plugin add /path/to/localstoragex
+   cordova plugin add /path/to/mxstorage
    ```
 
 ## Methods
@@ -27,7 +27,7 @@
 Stores a key-value pair persistently.
 
 ```js
-localstoragex.setItem('username', 'Kaan', function() {
+mxstorage.setItem('username', 'Kaan', function() {
     console.log('Item stored');
 }, function(err) {
     console.log('Error storing item:', err);
@@ -38,7 +38,7 @@ localstoragex.setItem('username', 'Kaan', function() {
 Retrieves the value associated with the given key.
 
 ```js
-localstoragex.getItem('username', function(value) {
+mxstorage.getItem('username', function(value) {
     console.log('Retrieved value:', value);
 }, function(err) {
     console.log('Error retrieving item:', err);
@@ -49,7 +49,7 @@ localstoragex.getItem('username', function(value) {
 Removes the item with the specified key.
 
 ```js
-localstoragex.removeItem('username', function() {
+mxstorage.removeItem('username', function() {
     console.log('Item removed');
 }, function(err) {
     console.log('Error removing item:', err);
@@ -60,7 +60,7 @@ localstoragex.removeItem('username', function() {
 Removes all stored key-value pairs.
 
 ```js
-localstoragex.clear(function() {
+mxstorage.clear(function() {
     console.log('All items cleared');
 }, function(err) {
     console.log('Error clearing items:', err);
@@ -71,7 +71,7 @@ localstoragex.clear(function() {
 Returns all stored key-value pairs as an object.
 
 ```js
-localstoragex.getAll(function(items) {
+mxstorage.getAll(function(items) {
     console.log('All items:', items);
 }, function(err) {
     console.log('Error retrieving items:', err);
@@ -84,35 +84,35 @@ Here is an example demonstrating the basic usage of the plugin:
 
 ```js
 // Store a value
-localstoragex.setItem('token', '12345', function() {
+mxstorage.setItem('token', '12345', function() {
     console.log('Token saved');
 }, function(err) {
     console.log('Error:', err);
 });
 
 // Retrieve the stored value
-localstoragex.getItem('token', function(value) {
+mxstorage.getItem('token', function(value) {
     console.log('Token:', value);
 }, function(err) {
     console.log('Error retrieving token:', err);
 });
 
 // Remove a stored value
-localstoragex.removeItem('token', function() {
+mxstorage.removeItem('token', function() {
     console.log('Token removed');
 }, function(err) {
     console.log('Error removing token:', err);
 });
 
 // Get all stored key-value pairs
-localstoragex.getAll(function(items) {
+mxstorage.getAll(function(items) {
     console.log('Stored items:', items);
 }, function(err) {
     console.log('Error retrieving items:', err);
 });
 
 // Clear all stored items
-localstoragex.clear(function() {
+mxstorage.clear(function() {
     console.log('All items cleared');
 }, function(err) {
     console.log('Error clearing items:', err);

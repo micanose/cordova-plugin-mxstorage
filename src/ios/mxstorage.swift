@@ -1,7 +1,7 @@
 import Foundation
 import Cordova
 
-@objc(LocalStoragex) class LocalStoragex: CDVPlugin {
+@objc(mxstorage) class mxstorage: CDVPlugin {
 
     @objc(setItem:)
     func setItem(command: CDVInvokedUrlCommand) {

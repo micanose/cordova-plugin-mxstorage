@@ -1,4 +1,4 @@
-package com.example.localstoragex;
+package com.example.mxstorage;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
@@ -7,7 +7,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class LocalStoragex extends CordovaPlugin {
+public class mxstorage extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {

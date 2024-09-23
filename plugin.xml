@@ -1,16 +1,16 @@
-<plugin id="cordova-plugin-localstoragex" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
-    <name>LocalStoragex</name>
+<plugin id="cordova-plugin-mxstorage" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>mxstorage</name>
 
-    <js-module src="www/localstoragex.js" name="localstoragex">
-        <clobbers target="localstoragex" />
+    <js-module src="www/mxstorage.js" name="mxstorage">
+        <clobbers target="mxstorage" />
     </js-module>
 
     <platform name="ios">
-        <source-file src="src/ios/LocalStoragex.swift" />
+        <source-file src="src/ios/mxstorage.swift" />
         <framework src="Cordova" />
     </platform>
 
     <platform name="android">
-        <source-file src="src/android/LocalStoragex.java" />
+        <source-file src="src/android/mxstorage.java" />
     </platform>
 </plugin>
